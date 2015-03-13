@@ -14,7 +14,18 @@ Mark A. Gibbs                                      <indi.in.the.wired@gmail.com>
 --------------------------------------------------------------------------------
 
   created      -> AUTHORS, ChangeLog, COPYING, INSTALL, NEWS, README, README.md,
-                  THANKS
+                  THANKS, Makefile, book.mk, src/content.opf, src/toc.xhtml,
+                  src/toc.ncx, src/text/cover.xhtml, src/text/titlepage.xhtml,
+                  src/text/foreword.xhtml, src/text/chapter-1.xhtml,
+                  src/text/chapter-2.xhtml, src/text/chapter-3.xhtml,
+                  src/text/chapter-4.xhtml, src/text/chapter-5.xhtml,
+                  src/text/chapter-6.xhtml, src/text/chapter-7.xhtml,
+                  src/text/colophon.xhtml, src/style/style.css,
+                  src/style/colophon.css, src/style/cover.css,
+                  src/style/foreword.css, src/style/index.css,
+                  src/style/titlepage.css, src/style/toc.css,
+                  src/images/cover.svg, src/images/cc-zero.svg,
+                  src/images/publicdomain.svg
 
 
 ################################################################################
