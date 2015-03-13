@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" xml:lang="en">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:identifier id="pub-id">urn:uuid:6cd9f750-c953-11e4-8830-0800200c9a66</dc:identifier>
+		<meta refines="#pub-id" property="identifier-type" scheme="xsd:string">uuid</meta>
+		
+		<dc:title id="title">The Miracle of the Lily</dc:title>
+		<meta refines="#title" property="title-type">main</meta>
+		<meta refines="#title" property="file-as">Miracle of the Lily, The</meta>
+		
+		<dc:creator id="author">Clare Winger Harris</dc:creator>
+		<meta refines="#author" property="file-as">Harris, Clare Winger</meta>
+		<meta refines="#author" property="role" scheme="marc:relators">aut</meta>
+		
+		<dc:contributor id="editor">Mark A. Gibbs</dc:contributor>
+		<meta refines="#editor" property="file-as">Gibbs, Mark A.</meta>
+		<meta refines="#editor" property="role" scheme="marc:relators">edt</meta>
+		
+		<dc:description>After replacing the dinosaurs as the dominant life on Earth, humanity now faces the possibility that it will in turn be replaced the by the next rulers of the Earth: the insects. Spanning two thousand years, this is a story from the golden age of science fiction about struggle and nature, and how both shape humanity.</dc:description>
+		
+		<dc:language>en</dc:language>
+		
+		<meta property="dcterms:dateCopyrighted">1928</meta>
+		
+		<dc:publisher>Indi’s ebook collection</dc:publisher>
+		<dc:date>2015-03-13</dc:date>
+		
+		<!-- BISAC subject headings -->
+		<dc:subject><!-- FICTION / Science Fiction / General -->Science Fiction</dc:subject>
+		
+		<meta property="dcterms:modified">2015-03-13T00:00:00Z</meta>
+		
+		<meta name="cover" content="image-cover-png"/>
+	</metadata>
+	<manifest>
+		<item id="cover" href="text/cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		
+		<item id="titlepage" href="text/titlepage.xhtml" media-type="application/xhtml+xml"/>
+		
+		<item id="foreword"  href="text/foreword.xhtml"  media-type="application/xhtml+xml"/>
+		<item id="chapter-1" href="text/chapter-1.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter-2" href="text/chapter-2.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter-3" href="text/chapter-3.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter-4" href="text/chapter-4.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter-5" href="text/chapter-5.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter-6" href="text/chapter-6.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter-7" href="text/chapter-7.xhtml" media-type="application/xhtml+xml"/>
+		
+		<item id="colophon" href="text/colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		
+		<item id="style-core"      href="style/style.css"     media-type="text/css"/>
+		<item id="style-colophon"  href="style/colophon.css"  media-type="text/css"/>
+		<item id="style-cover"     href="style/cover.css"     media-type="text/css"/>
+		<item id="style-foreword"  href="style/foreword.css"  media-type="text/css"/>
+		<item id="style-index"     href="style/index.css"     media-type="text/css"/>
+		<item id="style-titlepage" href="style/titlepage.css" media-type="text/css"/>
+		<item id="style-toc"       href="style/toc.css"       media-type="text/css"/>
+		
+		<item id="image-cover-png" href="images/cover.png" media-type="image/png"                             />
+		<item id="image-cover"     href="images/cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+		
+		<item id="image-licence-pd"  href="images/publicdomain.svg" media-type="image/svg+xml"/>
+		<item id="image-licence-cc0" href="images/cc-zero.svg"      media-type="image/svg+xml"/>
+		
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml"    properties="nav"/>
+		<item id="ncx" href="toc.ncx"   media-type="application/x-dtbncx+xml"                 />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cover"    />
+		<itemref idref="titlepage"/>
+		<itemref idref="toc"      />
+		<itemref idref="foreword" />
+		<itemref idref="chapter-1"/>
+		<itemref idref="chapter-2"/>
+		<itemref idref="chapter-3"/>
+		<itemref idref="chapter-4"/>
+		<itemref idref="chapter-5"/>
+		<itemref idref="chapter-6"/>
+		<itemref idref="chapter-7"/>
+		<itemref idref="colophon" />
+	</spine>
+	<guide>
+		<reference type="cover"     title="Cover"             href="text/cover.xhtml"    />
+		<reference type="titlepage" title="Title page"        href="text/titlepage.xhtml"/>
+		<reference type="toc"       title="Table of contents" href="toc.xhtml"           />
+		<reference type="foreword"  title="Foreword"          href="text/foreword.xhtml" />
+		<reference type="text"      title="Main content"      href="text/chapter-1.xhtml"/>
+		<reference type="colophon"  title="Colohpon"          href="text/colophon.xhtml" />
+	</guide>
+</package>
