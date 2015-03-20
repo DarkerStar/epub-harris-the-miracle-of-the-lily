@@ -1,4 +1,4 @@
-XXXX-XX-XX  Mark A. Gibbs  <indi.in.the.wired@gmail.com>
+2015-03-20  Mark A. Gibbs  <indi.in.the.wired@gmail.com>
      
      * COPYING: New project copyright documentaion.
      
@@ -58,7 +58,7 @@ XXXX-XX-XX  Mark A. Gibbs  <indi.in.the.wired@gmail.com>
      
      * style/foreword.css: New EPUB 3 content document.
      
-     * style/index.css: New EPUB 3 content document.
+     * style/foreword-border.svg: New EPUB 3 content document.
      
      * style/titlepage.css: New EPUB 3 content document.
      
