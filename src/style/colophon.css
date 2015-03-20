@@ -1,0 +1,16 @@
+#colophon a {
+	color: black;
+	text-decoration: none;
+}
+
+#colophon .licence {
+  margin: 2rem 0;
+  overflow: auto;
+  padding-left: 6.25rem;
+  text-indent: 0;
+}
+
+#colophon .licence .mark {
+  float: left;
+  margin-left: -6.25rem;
+}

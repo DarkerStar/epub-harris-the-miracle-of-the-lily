@@ -1,0 +1,31 @@
+#toc {
+	padding-top: 5rem;
+}
+
+#toc > ol {
+	list-style: none;
+	font-size: 1.25rem;
+	margin: 0;
+	padding: 0;
+}
+
+#toc > ol li + li {
+	margin: 1rem 0 0;
+}
+
+#toc > ol > li + li {
+	margin: 2.5rem 0 0;
+}
+
+#toc > ol a {
+	color: black;
+	text-decoration: none;
+}
+
+#toc > ol a:hover {
+	color: red;
+}
+
+#toc .frontmatter > ol {
+	list-style: lower-roman;
+}

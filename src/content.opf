@@ -52,9 +52,10 @@
 		<item id="style-colophon"  href="style/colophon.css"  media-type="text/css"/>
 		<item id="style-cover"     href="style/cover.css"     media-type="text/css"/>
 		<item id="style-foreword"  href="style/foreword.css"  media-type="text/css"/>
-		<item id="style-index"     href="style/index.css"     media-type="text/css"/>
 		<item id="style-titlepage" href="style/titlepage.css" media-type="text/css"/>
 		<item id="style-toc"       href="style/toc.css"       media-type="text/css"/>
+		
+		<item id="style-foreword-borderimg" href="style/foreword-border.svg" media-type="image/svg+xml"/>
 		
 		<item id="image-cover-png" href="images/cover.png" media-type="image/png"                             />
 		<item id="image-cover"     href="images/cover.svg" media-type="image/svg+xml" properties="cover-image"/>

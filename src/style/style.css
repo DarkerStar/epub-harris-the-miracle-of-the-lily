@@ -1,0 +1,71 @@
+html {
+	font-family: Lora, Georgia, serif;
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+}
+
+body {
+	line-height: 1.5;
+	padding: 0;
+	margin: 0 auto;
+	min-height: 100vh;
+	text-align: justify;
+}
+
+section {
+	padding: 5rem 0;
+}
+
+h2 {
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin: 0 0 1rem;
+	text-align: center;
+}
+
+.chapter > header {
+	margin-top: -3rem;
+	text-align: center;
+}
+
+.label-and-ordinal {
+	display: block;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.chapter-source {
+	font-style: italic;
+}
+
+header + p:first-letter {
+	line-height: 0.85;
+	float: left;
+	font-size: 5.32em;
+}
+
+p {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	margin-bottom: 0;
+}
+
+p + p {
+	margin-top: 0;
+	text-indent: 1.5em;
+}
+
+abbr {
+  border: none;
+  text-decoration: none;
+}
+
+.first-words {
+	text-transform: uppercase;
+}
+
+.t {
+  display: none;
+}

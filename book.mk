@@ -20,7 +20,7 @@ content := toc.xhtml \
            style/colophon.css \
            style/cover.css \
            style/foreword.css \
-           style/index.css \
+           style/foreword-border.svg \
            style/titlepage.css \
            style/toc.css \
            images/cover.svg \

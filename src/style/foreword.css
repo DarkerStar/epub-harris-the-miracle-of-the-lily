@@ -1,0 +1,33 @@
+#foreword {
+	margin: 0;
+}
+
+#foreword-description {
+	min-height: 15vh;
+	margin: 0;
+	padding: 5rem 0 0;
+}
+
+#foreword-description:first-letter {
+	float: none;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+#original-foreword {
+	border: double black 5px;
+	border-image: url("foreword-border.svg") 5 repeat;
+	border-right: none;
+	border-left: none;
+	font-size: 0.8rem;
+	font-style: italic;
+	margin: 3rem auto 0;
+	max-width: 30em;
+	padding: 0 0 1em;
+}
+
+#original-foreword > *:first-child:first-letter {
+	float: left;
+	font-size: 3.125em;
+	line-height: 0.95;
+}
